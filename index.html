@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Starbucks </title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+    <!--top menu containing logo, menus and personal login details and store location-->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!--3 sectionns so 3 divisions-->
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="assets/logo.png" />
+                </a>
+            </div>
+
+            <!--Menu section-->
+            <ul class="navbar-nav-left">
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Rewards</a>
+                </li>
+                <li>
+                    <a href="#">Gift Cards</a>
+                </li>
+            </ul>
+
+            <!--Personal info and store location-->
+            <ul class="navbar-nav-rigth">
+                <li>
+                    <a href="#">
+                        <img src="assets/marker.png" />
+                        <span>Find a store</span>
+                    </a>
+                </li>
+                <li>
+                    <button class="btn
+                             Sign-in-button">
+                        Sign in
+                    </button>
+                </li>
+                <li>
+                    <button class="btn
+                             Join-button">
+                        Join
+                    </button>
+                </li>
+            </ul>
+
+            <!--HAMBURGER MENU--> 
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+ 
+        </div>
+    </nav>
+
+    <!--Mobile menu--> 
+    <div class="mobile-menu hidden" id="menu">
+        <ul>
+            <li>
+                <a href="#">Menu</a>
+            </li>
+            <li>
+                <a href="#">Rewards</a>
+            </li>
+            <li>
+                <a href="#">Gift Cards</a>
+            </li>
+        </ul>
+
+        <div class="mobile-menu-bottom">
+            <button class="btn Sign-in-button">Sign in</button>
+            <button class="btn Join-button">Join</button>
+            <div>
+                <a href="#">
+                    <img src="assets/marker.png" alt="" />
+                    <span>Find a store</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--1st BOX-->
+    <section class="box box-a bg-primary text-center py-md">
+        <!--first bax aka box-a with text in the center and padding with y-axis-->
+        <div class="box-inner">
+            <h2 class="text-xl">Jingle all the way to free favorites</h2>
+            <p class="text-md">
+                Join Starbucks® Rewards for delicious deals & exclusive offers.
+                <a href="https://en.wikipedia.org/wiki/Starbucks">Learn more</a>
+            </p>
+        </div>
+    </section>
+
+    <!--2nd box-->
+
+    <section class="box box-b bg-secondary grid-col-2">
+        <img src="assets/box-b.png" alt="" />
+        <div class="box-text">
+            <h2 class="text-xl">New to the nice list</h2>
+            <p class="text-md">For a nondairy twist on a holiday cookie classic, try the Iced Sugar Cookie Almondmilk Latte.</p>
+            <a href="#" class="btn Order-Now-button">Order Now</a>
+        </div>
+
+    </section>
+
+    <!--3rd box-->
+
+    <section class="box box-c bg-secondary grid-col-2 grid-reversed">
+        <img src="assets/box-c.png" alt="" />
+        <div class="box-text">
+            <h2 class="text-xl">Merry Moments</h2>
+            <p class="text-md">Treat youself to a festive Sugar Plum Cheese  Danish with a nicely spiced sugar-plum spread.</p>
+            <a href="#" class="btn Order-Now-button">Order Now</a>
+        </div>
+
+    </section>
+
+    <!--4th box-->
+
+    <section class="box box-d bg-primary grid-col-2">
+        <img src="assets/box-d.png" alt="" />
+        <div class="box-text">
+            <h2 class="text-xl">Starbucks Halloween Blend</h2>
+            <p class="text-md">This element dark roast returns, showcasing flavours from someof the world's major coffee-growing regions.'</p>
+            <a href="#" class="btn Order-Now-button">Order Now</a>
+        </div>
+
+    </section>
+
+    <!--5nd box-->
+
+    <section class="box box-e bg-secondary grid-col-2 grid-reversed">
+        <img src="assets/box-e.jpg" alt="" />
+        <div class="box-text">
+            <h2 class="text-md">Fighting hunger this holiday</h2>
+            <p class="text-sm">Hunger is one of the world's leading problem why not fight it together. Join us and lets make this holiday better for the one who's in need</p>
+            <a href="#" class="btn Order-Now-button">Order Now</a>
+        </div>
+
+    </section>
+
+    <!--6th Box-->
+    <section class="box box-f grid-col-2">
+        <div>
+            <img src="assets/box-f1.jpg" alt="" />
+            <div class="bg-extra py-lg">
+                <div class="box-text">
+                    <h2 class="text-md">Let the holiday cheer come to you</h2>
+                    <p class="text-sm">Make the moments merry. Order Starbucks holiday favorites on UberEats</p>
+                    <a href="#" class="btn Join-button">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="assets/box-f2.jpg" alt="" />
+            <div class="bg-primary py-lg">
+                <div class="box-text">
+                    <h2 class="text-md">Loved passing on Netflix?</h2>
+                    <p class="text-sm">Our social series abput flim adaptation kicks off with the actors and directors who brought the book to life.</p>
+                    <a href="#" class="btn Order-Now-button">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="divider"></div> 
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social">
+                <a href="http://spotify.com">
+                    <img src="assets/spotify.png" alt="" />
+                </a>
+
+                <a href="http://facebook.com">
+                    <img src="assets/fb.png" alt="" />
+                </a>
+
+                <a href="http://instagram.com">
+                    <img src="assets/ig.png" alt="" />
+                </a>
+
+                <a href="http://pinterest.com">
+                    <img src="assets/pinterest.png" alt="" />
+                </a>
+
+                <a href="http://twitter.com">
+                    <img src="assets/twitter.png" alt="" />
+                </a>
+
+                <a href="http://youtube.com">
+                    <img src="assets/youtube.jpg" alt="" />
+                </a>
+            </div>
+            <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+       
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
